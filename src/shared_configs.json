@@ -1,0 +1,69 @@
+{
+  "_comment": "Shared visual encoding for all GDV notebooks. Load with json.load(open('encoding.json')).",
+
+  "output_dir": "../docs/graphic_own",
+
+  "fuel_category_order": ["BEV", "Petrol", "Diesel", "Hybrid", "Other"],
+  
+  "fuel_category_colors": {
+    "BEV":    "#67000D",
+    "Petrol": "#F86144",
+    "Diesel": "#FCAB8E",
+    "Hybrid": "#C1151B",
+    "Other":  "#808080"
+  },
+
+  "b_fuel_canton": {
+    "map_gradient_low": "#808080",
+    "diverging_axis_label_colors": {
+      "negative": "#F86144",
+      "positive": "#67000D",
+      "zero":     "#000000"
+    }
+  },
+
+  "c_canton_comparison": {
+    "below_aargau": "#F86144",
+    "above_aargau": "#67000D",
+    "aargau":       "#606060"
+  },
+
+  "figure_size": [10, 6],
+
+  "saving_config": {
+    "bbox_inches": "tight",
+    "dpi": 300 
+  }, 
+
+  "data_source":{
+    "x": 0.04,
+    "y": 0,
+    "s": "Department of Statistics, Federal Statistical Office (FSO), 2016–2026",
+    "fontsize": 9,
+    "color": "gray",
+    "ha": "left",
+    "va": "top"
+  },
+
+  "title_style": {
+   "x": 0.04,
+    "y": 0.97,
+    "ha": "left",
+    "va": "top",
+    "fontsize": 14,
+    "fontweight": "bold"
+  },
+  "plot_space": {
+     "top": 0.86,
+     "bottom": 0.08
+  },
+
+
+  "subtitle_style": {
+    "x": 0.04,
+    "y": 0.93,
+    "ha": "left",
+    "va": "top",
+    "fontsize": 11
+  }
+}
