@@ -56,7 +56,7 @@ class PreparSwissVehicle:
 
     category_order = ["BEV", "Petrol", "Diesel", "Hybrid", "Other"]
 
-    def __init__(self, csv_path="../data/registerd.csv"):
+    def __init__(self, csv_path="../data/registered.csv"):
         self.df = pd.read_csv(csv_path, sep=";")
         self._prepare()
 

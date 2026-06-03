@@ -31,18 +31,17 @@
   "figure_size": [10, 6],
 
   "saving_config": {
-    "bbox_inches": "tight",
     "dpi": 300 
   }, 
 
   "data_source":{
     "x": 0.04,
-    "y": 0,
+    "y": 0.02,
     "s": "Department of Statistics, Federal Statistical Office (FSO), 2016–2026",
     "fontsize": 9,
     "color": "gray",
     "ha": "left",
-    "va": "top"
+    "va": "bottom"
   },
 
   "title_style": {
@@ -55,7 +54,7 @@
   },
   "plot_space": {
      "top": 0.86,
-     "bottom": 0.08
+     "bottom": 0.12
   },
 
 
